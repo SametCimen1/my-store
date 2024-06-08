@@ -31,7 +31,7 @@ export const RoleEnum = pgEnum('roles', ['user', 'admin'])
     image: text("image"),
     password: text('password'),
     twoFactorEnabled: boolean('twoFactorEnabled').default(false),
-    role: RoleEnum('roles').default('user'),
+    role: RoleEnum('roles').default('admin'),
     customerID: text('customerID')
   })
 

@@ -127,6 +127,13 @@
       "when": 1717737869693,
       "tag": "0017_glamorous_shooting_star",
       "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1717810462874,
+      "tag": "0018_furry_changeling",
+      "breakpoints": true
     }
   ]
 }
